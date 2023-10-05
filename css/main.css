@@ -420,6 +420,18 @@ input[type="submit"]:focus {
     z-index: 1;
 }
 
+@media only screen and (max-width: 1024px) {
+    .header-photo {
+        display: none;
+    }
+    .header-photo video {
+        display: none;
+    }
+    .header-content {
+        margin-top: 80px;
+    }
+}
+
 .header-photo video {
     max-width: 100%;
     border: 3px solid #fff;

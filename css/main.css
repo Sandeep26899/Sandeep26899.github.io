@@ -3025,4 +3025,7 @@ blockquote {
     .title-block .sp-subtitle {
         font-size: 18px;
     }
+    iframe#myIframe {
+        height: 1250px;
+    }
 }
